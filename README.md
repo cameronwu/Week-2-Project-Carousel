@@ -54,6 +54,13 @@ Optional: Learn more about Carousel
 - Optional: When all events are completed, dismiss the banner.
 
 
+Bonus Features:
+---------------
+
+- Show an animated swipe gesture hint on intro screen.
+- Terms checkbox shakes if the user attemps to sign up without checking it.
+
+
 Walkthrough:
 
 ![alt tag](https://github.com/cameronwu/Week-2-Project-Carousel/raw/master/walkthrough.gif)
