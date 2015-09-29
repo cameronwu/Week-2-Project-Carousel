@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		121F7B891BB92583006775B6 /* GetLinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121F7B881BB92583006775B6 /* GetLinkViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		12602C3F1BB39BF300DE9EDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12602C3E1BB39BF300DE9EDF /* AppDelegate.swift */; };
 		12602C411BB39BF300DE9EDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12602C401BB39BF300DE9EDF /* ViewController.swift */; };
 		12602C441BB39BF300DE9EDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12602C421BB39BF300DE9EDF /* Main.storyboard */; };
@@ -14,6 +15,16 @@
 		12602C491BB39BF300DE9EDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12602C471BB39BF300DE9EDF /* LaunchScreen.storyboard */; };
 		12602C541BB39BF300DE9EDF /* CarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12602C531BB39BF300DE9EDF /* CarouselTests.swift */; };
 		12602C5F1BB39BF300DE9EDF /* CarouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12602C5E1BB39BF300DE9EDF /* CarouselUITests.swift */; };
+		12602C6D1BB39D7900DE9EDF /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12602C6C1BB39D7900DE9EDF /* Common.swift */; settings = {ASSET_TAGS = (); }; };
+		12602C701BB39DB000DE9EDF /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12602C6F1BB39DB000DE9EDF /* IntroViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		126EE9861BB67F2D0025BF2E /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126EE9851BB67F2D0025BF2E /* CreateAccountViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		126EE9881BB686CB0025BF2E /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126EE9871BB686CB0025BF2E /* TermsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		126EE98A1BB744470025BF2E /* LearnMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126EE9891BB744470025BF2E /* LearnMoreViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		12776BB81BB3CE45000EF285 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12776BB71BB3CE45000EF285 /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		12776BBA1BB3CEBB000EF285 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12776BB91BB3CEBB000EF285 /* SignInViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		12776BBC1BB3DC13000EF285 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12776BBB1BB3DC13000EF285 /* WelcomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		128297121BB510550077338C /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128297111BB510550077338C /* ConversationsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		128297141BB510750077338C /* CarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128297131BB510750077338C /* CarouselViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		121F7B881BB92583006775B6 /* GetLinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetLinkViewController.swift; sourceTree = "<group>"; };
 		12602C3B1BB39BF300DE9EDF /* Carousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12602C3E1BB39BF300DE9EDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12602C401BB39BF300DE9EDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,16 @@
 		12602C5A1BB39BF300DE9EDF /* CarouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12602C5E1BB39BF300DE9EDF /* CarouselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselUITests.swift; sourceTree = "<group>"; };
 		12602C601BB39BF300DE9EDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12602C6C1BB39D7900DE9EDF /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		12602C6F1BB39DB000DE9EDF /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		126EE9851BB67F2D0025BF2E /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		126EE9871BB686CB0025BF2E /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		126EE9891BB744470025BF2E /* LearnMoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnMoreViewController.swift; sourceTree = "<group>"; };
+		12776BB71BB3CE45000EF285 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		12776BB91BB3CEBB000EF285 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		12776BBB1BB3DC13000EF285 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		128297111BB510550077338C /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		128297131BB510750077338C /* CarouselViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +119,9 @@
 		12602C3D1BB39BF300DE9EDF /* Carousel */ = {
 			isa = PBXGroup;
 			children = (
+				12602C6E1BB39DA100DE9EDF /* View Controllers */,
 				12602C3E1BB39BF300DE9EDF /* AppDelegate.swift */,
+				12602C6C1BB39D7900DE9EDF /* Common.swift */,
 				12602C401BB39BF300DE9EDF /* ViewController.swift */,
 				12602C421BB39BF300DE9EDF /* Main.storyboard */,
 				12602C451BB39BF300DE9EDF /* Assets.xcassets */,
@@ -123,6 +147,23 @@
 				12602C601BB39BF300DE9EDF /* Info.plist */,
 			);
 			path = CarouselUITests;
+			sourceTree = "<group>";
+		};
+		12602C6E1BB39DA100DE9EDF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				12602C6F1BB39DB000DE9EDF /* IntroViewController.swift */,
+				12776BB71BB3CE45000EF285 /* SettingsViewController.swift */,
+				12776BB91BB3CEBB000EF285 /* SignInViewController.swift */,
+				12776BBB1BB3DC13000EF285 /* WelcomeViewController.swift */,
+				128297111BB510550077338C /* ConversationsViewController.swift */,
+				128297131BB510750077338C /* CarouselViewController.swift */,
+				126EE9851BB67F2D0025BF2E /* CreateAccountViewController.swift */,
+				126EE9871BB686CB0025BF2E /* TermsViewController.swift */,
+				126EE9891BB744470025BF2E /* LearnMoreViewController.swift */,
+				121F7B881BB92583006775B6 /* GetLinkViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,8 +296,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				126EE9881BB686CB0025BF2E /* TermsViewController.swift in Sources */,
+				126EE9861BB67F2D0025BF2E /* CreateAccountViewController.swift in Sources */,
 				12602C411BB39BF300DE9EDF /* ViewController.swift in Sources */,
+				12602C6D1BB39D7900DE9EDF /* Common.swift in Sources */,
+				126EE98A1BB744470025BF2E /* LearnMoreViewController.swift in Sources */,
+				12776BBA1BB3CEBB000EF285 /* SignInViewController.swift in Sources */,
+				128297121BB510550077338C /* ConversationsViewController.swift in Sources */,
 				12602C3F1BB39BF300DE9EDF /* AppDelegate.swift in Sources */,
+				12776BB81BB3CE45000EF285 /* SettingsViewController.swift in Sources */,
+				12602C701BB39DB000DE9EDF /* IntroViewController.swift in Sources */,
+				128297141BB510750077338C /* CarouselViewController.swift in Sources */,
+				121F7B891BB92583006775B6 /* GetLinkViewController.swift in Sources */,
+				12776BBC1BB3DC13000EF285 /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +450,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Carousel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cameronwu.Carousel;
@@ -409,6 +462,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Carousel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cameronwu.Carousel;
@@ -483,6 +537,7 @@
 				12602C651BB39BF300DE9EDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12602C661BB39BF300DE9EDF /* Build configuration list for PBXNativeTarget "CarouselTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +546,7 @@
 				12602C681BB39BF300DE9EDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12602C691BB39BF300DE9EDF /* Build configuration list for PBXNativeTarget "CarouselUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +555,7 @@
 				12602C6B1BB39BF300DE9EDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

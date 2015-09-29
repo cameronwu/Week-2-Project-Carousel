@@ -15,7 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // Default all onboarding tasks to incomplete
+        defaults.setBool(false, forKey: "isTask1Complete")
+        defaults.setBool(false, forKey: "isTask2Complete")
+        defaults.setBool(false, forKey: "isTask3Complete")
+        defaults.setBool(false, forKey: "didUserHideBanner")
+        defaults.synchronize()
+        
         return true
     }
 
