@@ -62,5 +62,6 @@ Bonus Features:
 
 
 Walkthrough:
+------------
 
 ![alt tag](https://github.com/cameronwu/Week-2-Project-Carousel/raw/master/walkthrough.gif)
